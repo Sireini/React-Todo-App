@@ -1,7 +1,3 @@
-$('.navbar-brand').hover( function(){
-    $('body').css({'background-color': '#000'})
-});
-
 $(document).ready(function () {
   var trigger = $('.hamburger'),
       overlay = $('.overlay'),

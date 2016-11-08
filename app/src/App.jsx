@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import $ from 'jquery';
+// import $ from 'jquery';
 
 import SideBar from './SideBar'
 import PageContent from './PageContent'
 
 
 class App extends Component {
-  test (){
-    $('.t').text('color');
-  }
+  // test (){
+  //   $('.t').text('color');
+  // }
 
   render() {
     return (
