@@ -3,9 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-bless": "^4.0.0",
+    "gulp-compass": "^2.1.0",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-ng-annotate": "^2.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-uglifycss": "^1.0.8",
+    "gulp-watch": "^4.3.11",
     "react-scripts": "0.7.0"
   },
   "dependencies": {
+    "jquery": "^3.2.1",
     "react": "^15.3.2",
     "react-dom": "^15.3.2"
   },

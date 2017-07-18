@@ -9490,16 +9490,19 @@ h6 {
 .item.list-group-item {
   float: none;
   width: 100%;
-  background-color: #fff;
+  background-color: transparent;
+  border: none;
   margin-bottom: 10px;
 }
 .item.list-group-item .list-group-image {
+  display: inline-block;
   margin-right: 10px;
 }
 .item.list-group-item .thumbnail {
   margin-bottom: 0px;
 }
 .item.list-group-item .caption {
+  display: inline-block;
   padding: 9px 9px 0px 9px;
 }
 .item.list-group-item:before {

@@ -3,15 +3,11 @@ import React, { Component } from 'react';
 import './App.css';
 // import $ from 'jquery';
 
-import SideBar from './SideBar'
-import PageContent from './PageContent'
+import SideBar from './Components/SideBar/SideBar'
+import PageContent from './Components/PageContent/PageContent'
 
 
 class App extends Component {
-  // test (){
-  //   $('.t').text('color');
-  // }
-
   render() {
     return (
       // <div className="App">
@@ -23,15 +19,11 @@ class App extends Component {
       //     To get started, edit <code>src/App.js</code> and save to reload.
       //   </p>
         
-      //   <button type="button" className="btn btn-primary">Primary</button>
         <div id="wrapper">
         <div className="overlay"></div>
           <SideBar />
           <PageContent />
-          </div>
-      // </div>
-
-      
+        </div>
     );
   }
 }
